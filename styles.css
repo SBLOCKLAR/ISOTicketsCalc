@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&family=Noto+Serif+Lao&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Noto Serif Lao', serif;
+    margin: 1em;
+    background-image: url(https://images.unsplash.com/photo-1557683304-673a23048d34?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=564&q=80);
+    width: 300px;
+}
+
+h1 {
+    color: whitesmoke;
+    margin: 0 auto;
+    font-size: 2.5em;
+    text-align: center;
+    font-family: 'Kurale', serif;
+}
+
+/* .deskContainer {
+    margin: 0 auto;
+    height: 30em;
+    min-width: 200px;
+    max-width: 515px;
+    border-radius: 15px;
+    padding-top: 1em;
+} */
+
+
+.inputContainer {
+    background-color: rgba(255, 255, 255, 60%);
+    text-align: center;
+    min-width: 275px;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 0.5em;
+}
+
+
+/* Removes buttons from */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input {
+    margin: 0.75em;
+    width: 100px;
+    text-align: center;
+}
+
+table,
+th,
+tr,
+td {
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+table {
+    margin: 0 auto;
+}
+
+table,
+.inputContainer {
+    max-width: 400px;
+    margin-top: 1em;
+}
+
+td {
+    width: 50%;
+    font-size: 1.25em;
+    height: fit-content;
+}
+
+.cardLogo {
+    width: 60px;
+}
+
+#credit {
+    text-align: center;
+    color: whitesmoke;
+}
+
+#credit>a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
